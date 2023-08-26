@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height:100vh;
+    width:100vw;
+    background:black;
+}
+
+.header{
+    
+}
