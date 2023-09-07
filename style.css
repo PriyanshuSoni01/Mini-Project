@@ -144,12 +144,12 @@
       margin-top:-15% ;
       margin-bottom: 50px;
       width:55%;
-      height:35px;
+      height:40px;
       background-color: var(--secondary-color);
       border-radius: 1rem;
     }  
     .search-section:hover{
-      transition: all 0.3s;
+      transition: all 0.4s;
       transform: scale(1.02);
     }
     .search-section input{
@@ -170,4 +170,10 @@
     .search-section img{
       padding: 9.5px 10px 0px 10px ;
       cursor: pointer;
+    }
+    .span-txt-1{
+      color: rgb(223, 141, 223);
+    }
+    .para_sec1{
+      margin-bottom: 8px;
     }
