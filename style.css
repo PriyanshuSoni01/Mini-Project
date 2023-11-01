@@ -133,6 +133,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      border-radius: 50px;
+      object-fit: cover;
     }
     .first-section p{
       color:var(--secondary-color);
@@ -208,6 +210,13 @@
       padding: 0.9rem;
       font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     }
+    .cards:hover{
+      color:var(--primary-color);
+      transition-duration: 400ms;
+      scale: 1.03;
+      box-shadow: 200px 50px 300px  var(--secondary-color) inset;
+    }
+    
     .checked{
       color:orange;
       cursor: pointer;
